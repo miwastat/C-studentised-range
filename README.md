@@ -12,3 +12,8 @@
   Test program of strng_lq()
 * strng_tbl.c:  
   tabulates the quantiles of Studentised range
+
+## License
+
+GPLv3  
+[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
