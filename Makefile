@@ -25,13 +25,6 @@ strng_lq_tst.o: strng_lq_tst.c
 strng_lq.o: strng_lq.c
 	$(CC) -c strng_lq.c
 
-#### strng_lp_tst: strng_lp_tst.o strng_lp.o rng_lp.o nrml_p.o
-#### 	$(CC) strng_lp_tst.o strng_lp.o rng_lp.o nrml_p.o -o strng_lp_tst -lm
-#### 	strip strng_lp_tst$(EXE)
-
-#### strng_lp_tst.o: strng_lp_tst.c
-#### 	$(CC) -c strng_lp_tst.c
-
 strng_lp.o: strng_lp.c
 	$(CC) -c strng_lp.c
 
@@ -47,4 +40,3 @@ rng_lp.o: rng_lp.c
 
 nrml_p.o: nrml_p.c
 	$(CC) -c nrml_p.c
-
