@@ -106,7 +106,7 @@ static double xulim(double r, int k)
       z = min(1.0, 0.203 + 0.133*w - 0.00493*w*w);
   } else {
     d1 = 0.0709 - 0.0139*k + 0.000705*k*k;
-    d2 <- 8.4 + 0.2*k;
+    d2 = 8.4 + 0.2*k;
     z = min(1.0, max(0.0, d1*(d2-r)) + 0.203 + 0.133*r - 0.00493*r*r);
   }
   return(xumax*z);
