@@ -1,6 +1,6 @@
 /*
  *  Test program for strng_lq().
- *    Command format: ./srng_lq_tst k nu alpha xeps
+ *    Command format: ./strng_lq_tst k nu alpha xeps
  */
 
 
